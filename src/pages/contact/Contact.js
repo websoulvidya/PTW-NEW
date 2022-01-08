@@ -204,7 +204,7 @@ function Contact() {
           <Typography className='uk-grid'>
               <div className='uk-width-1-3@m uk-width@s'>
           <h3 className='txh'><span uk-icon="location" className='txi'></span>&nbsp;&nbsp;Shanghai</h3>
-              <p className='txp'>PTW | SIDE Shanghai<br/>A505 Satisfied Star Space<br/>1398 Jiangchang Road, Jing an<br/>Shanghai 200072 PRC <a href="#" className='txa'>www.side.com</a></p>
+              <p className='txp'>PTW | SIDE Shanghai<br/>A505 Satisfied Star Space<br/>1398 Jiangchang Road, Jing an<br/>Shanghai 200072 PRC<br/> <a href="#" className='txa'>www.side.com</a></p>
               
               </div>
               <div className='uk-width-1-3@m uk-width@s'>
@@ -253,7 +253,7 @@ function Contact() {
               <div className='uk-width-1-3@m uk-width@s'>
                   <br/>
               <h3 className='txth'><span uk-icon="location" className='txh'></span>&nbsp;&nbsp;Tokyo</h3>
-              <p className='txtp'>Entalize<br/>MSB-21 Minami-otsuka Building, 2-37-5,<br/>Minami-otsuka, Toshima-ku,<br/>Tokyo, Japan <a href="#" className='txa'>www.entalize.co.jp</a></p>
+              <p className='txtp'>Entalize<br/>MSB-21 Minami-otsuka Building, 2-37-5,<br/>Minami-otsuka, Toshima-ku,<br/>Tokyo, Japan <br/><a href="#" className='txa'>www.entalize.co.jp</a></p>
               
               </div>
               <div className='uk-width-1-3@m uk-width@s'>
@@ -278,7 +278,7 @@ function Contact() {
               </div>  
              <div className='uk-width-1-3@m uk-width@s'>
                   <h3 className='txh'><span uk-icon="location" className='txh'></span>&nbsp;&nbsp;Los Angeles</h3>
-              <p className='txp'>SIDE LA<br/>1042 Princeton Drive<br/>Suite B<br/>Marina Del Rey<br/>Los Angeles, CA 90292 <a href="#" className='txa'>www.side.com</a></p>
+              <p className='txp'>SIDE LA<br/>1042 Princeton Drive<br/>Suite B<br/>Marina Del Rey<br/>Los Angeles, CA 90292<br/> <a href="#" className='txa'>www.side.com</a></p>
               </div>
               <div className='uk-width-1-3@m uk-width@s'>
                   <h3 className='txh'><span uk-icon="location" className='txh'></span>&nbsp;&nbsp;Montreal</h3>
@@ -312,6 +312,7 @@ function Contact() {
                <div className='uk-width-1-3@m uk-width@s'>
                 <h3 className='txh'><span uk-icon="location" className='txh'></span>&nbsp;&nbsp;Bucharest</h3>
                 <p className='txp'>PTW Bucharest<br/>26Z Timisoara Blvd., Anchor Plaza<br/>12th Floor, District 6<br/>Bucharest 061331</p>
+                <br/><br/><br/>
                </div>
           </Typography>
         </AccordionDetails>

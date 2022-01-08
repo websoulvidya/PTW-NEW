@@ -326,6 +326,7 @@ function Lab() {
                <img src={bord} alt='' class='bor'/>
                 <img src={img38} alt='' class='bo' />
                 <h3 className='be'>How Deep<br/>Domain Knowledge Can Build Strong Customer Relationships</h3>
+                <br/><br/><br/>
         </div>
 
     </div>
