@@ -1,0 +1,188 @@
+.sevengame-main .sev-img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.seven-img1, .seven-img2,.seven-img3 {
+    display: flex;
+    margin-left: 2rem;
+    
+}
+
+.square .squ {
+    height: 7rem;
+    width: 30rem;
+    position: relative;
+    margin-top: -11rem;
+    margin-left: -3rem;
+
+}
+
+.sevengame-main .sev-text {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    text-align: justify;
+}
+
+.sevengame-head h1 {
+    text-align: center;
+    color:#FF0A04;
+    font-size: 3.5rem;
+}
+
+.seven-button .read-button {
+
+    text-decoration: none;
+    padding: 10px;
+    
+    /* position: relative; */
+    color: #FF0A04;
+    letter-spacing: unset;
+    font-size: 13px;
+    
+    
+    
+
+}
+
+.seven-button {
+    margin-top: 2rem;
+
+}
+
+
+.square1 .squ1 {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-top: -4.5rem;
+    
+    
+}
+
+
+
+
+
+.seven-button .read-button:hover {
+
+    background: #FF0A04;
+    color: white;
+    text-decoration: none;
+}
+
+.sevengame-mobilemain {
+    display: none;
+}
+
+.seven-mobile-button {
+    display: none;
+}
+.mobile-square1 {
+    display: none;
+}
+
+@media only screen and (max-width:960px) {
+    .sevengame-main {
+        display: none;
+    }
+
+    .mobile-sub {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 2rem;
+        
+        
+    }
+ 
+
+    .mobile-sub::-webkit-scrollbar {
+        display: none;
+      }
+      
+
+    .mobile-sub-head {
+        display: flex;
+        
+    }
+
+    .sevengame-mobilemain {
+        display: block;
+    }
+
+    .mobile-square1 {
+        display: block;
+    }
+    .sevengame-mobilemain .sev-mob-img1 {
+        max-height: 6rem;
+        max-width: 6rem;
+    
+    }
+    .mobile-sub {
+        padding-left: 1rem;
+    }
+    .mobile-sub-s1 .sev-mobile-text {
+        margin-left: 2rem;
+    }
+
+    .mobile-square .mobile-squ {
+        max-height: 8rem;
+       max-width: 17rem;
+        margin-top: -12rem;
+        margin-left: 0.6rem;
+
+    }
+
+    .mobile-sub-s1 .sev-mobile-text {
+        font-size: 0.8rem;
+    }
+
+    .mobile-sub-s1 {
+        margin-left: 1.5rem;
+    }
+
+    .sevengame-head h1 {
+        font-size: 2rem;
+        
+    }
+    .seven-button {
+        display: none;
+    }
+    .square1 {
+        display: none;
+    }
+    .seven-mobile-button {
+        display: block;
+        
+    
+    }
+
+    .seven-mobile-button .read-mobile-button {
+
+        text-decoration: none;
+        padding: 10px;
+        
+        /* position: relative; */
+        color: #FF0A04;
+        letter-spacing: unset;
+        font-size: 13px;
+    }
+    .mobile-square1 .mobile-squ1 {
+        height: 7.5rem;
+        width: 7.5rem;
+        margin-top: -4.5rem;
+        
+        
+    }
+
+    .mobile-square {
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    .mobile-sub p {
+        color: black;
+    }
+    
+    
+   
+
+}

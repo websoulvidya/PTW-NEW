@@ -1,0 +1,510 @@
+.secondgame {
+    margin-top: 18rem;
+}
+
+.fivegame {
+  margin-top: 3rem;
+}
+
+.fourgame {
+  margin-top: 2rem;
+}
+
+.sevengame {
+  margin-top: 3rem;
+}
+
+
+/* first game */
+
+.servicebg-title {
+  display: flex;
+  background: #FF0A0499;
+  align-items: start;
+  clip-path: polygon( 0% 100%, /* top left */ 0% 0%, /* top left */ 100% 0%, /* top right */ 100% 0, /* top right */ 100% 75%, /* bottom right */ 94% 100%, /* bottom right */ 0% 100%, /* bottom left */ 0% 100% /* bottom left */ );
+  overflow: hidden;
+  border: none;
+}
+
+.servicebg-title p {
+  text-shadow: 3px 3px 6px #0000008c;
+  text-transform: uppercase;
+  /* line-height: initial; */
+  font-family: 'Proxima-Bold';
+  /* margin: 0; */
+  color: white;
+}
+
+.iconicService{
+  display: flex;
+}
+
+.home-text {
+  font-size: 2rem;
+  white-space: nowrap;
+  line-height: 58px;
+  padding-left: 7rem;
+  margin-top:  -25%;
+
+}
+
+.MainTitleDes {
+  padding-left: 6rem;
+  font-size: 3rem;
+}
+
+.qa-sub-txt {
+  display: block;
+  margin-top: 3rem;
+  margin-left: -31.5rem;
+
+}
+
+.qa-sub-txt span {
+ 
+  margin-right: 2rem;
+  
+}
+
+.deskImg {
+  height: 8rem;
+  width: 8rem;
+}
+
+.iconicService img {
+  left: 4rem;
+  position: absolute;
+} 
+
+
+@media only screen and (max-width: 960px) {
+  .home-text {
+      line-height: 0rem;
+      padding-left: 3rem;
+      margin-top:  -27%;
+      font-size: 1rem;
+
+  }
+  .qa-sub-txt {
+      display: none;
+  }
+  .iconicService img {
+      left: 1rem;
+      position: absolute;
+      margin-top: -0.5rem;
+  } 
+  .deskImg {
+      height: 3.5rem;
+      width: 3.5rem;
+  }
+  .servicebg-title {
+      display: flex;
+      background: #FF0A0499;
+      align-items: start;
+      clip-path: polygon( 0% 100%, /* top left */ 0% 0%, /* top left */ 100% 0%, /* top right */ 100% 0, /* top right */ 100% 75%, /* bottom right */ 94% 100%, /* bottom right */ 0% 100%, /* bottom left */ 0% 100% /* bottom left */ );
+      overflow: hidden;
+      border: none;
+      height: 1.5rem;
+      padding-top: 1rem;
+      width: 15rem;
+      word-spacing: 6px;
+      letter-spacing: 1px;
+      
+
+  }
+
+  .MainTitleDes {
+      padding-left: 1.5rem;
+      font-size: 1rem;
+      
+  }
+  .servicebg-title p {
+      text-shadow: 1px 1px 2px #0000008c;
+      text-transform: uppercase;
+      /* line-height: initial; */
+      font-family: 'Proxima-Bold';
+      /* margin: 0; */
+      color: white;
+  }
+  
+
+}
+
+
+/* second */
+.Alltechs {
+  display: flex;
+}
+
+.tech1,.tech2,.tech3,.tech4 {
+  /* border: 2px solid black; */
+  margin-left: 4rem;
+}
+
+/* .Alltechs .tech img {
+  height: 1rem;
+  width: 1rem;
+
+} */
+
+.platformHead p.head::after {
+  content: '';
+  border-bottom: 3px solid black;
+  width: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.head {
+  color: #FF0A04;
+  font-family: 'Proxima-Bold', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .tech1,.tech2,.tech3,.tech4 {
+      /* border: 2px solid black; */
+      margin-left: 0rem;
+  }
+  .tech2 {
+      margin-left: 1rem;
+  }
+
+  .tech3, .tech4 {
+      margin-top: 2rem;
+  }
+
+  .head {
+      font-size: 25px;
+  }
+  
+
+}
+
+
+
+
+
+
+
+/* second  */
+.Alltechs {
+  display: flex;
+}
+
+.tech1,.tech2,.tech3,.tech4 {
+  /* border: 2px solid black; */
+  margin-left: 4rem;
+}
+
+/* .Alltechs .tech img {
+  height: 1rem;
+  width: 1rem;
+
+} */
+
+.platformHead p.head::after {
+  content: '';
+  border-bottom: 3px solid black;
+  width: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.head {
+  color: #FF0A04;
+  font-family: 'Proxima-Bold', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .tech1,.tech2,.tech3,.tech4 {
+      /* border: 2px solid black; */
+      margin-left: 0rem;
+  }
+  .tech2 {
+      margin-left: 1rem;
+  }
+
+  .tech3, .tech4 {
+      margin-top: 2rem;
+  }
+
+  .head {
+      font-size: 25px;
+  }
+  
+
+}
+
+
+/* third */
+.platformSection {
+  margin-top: 4rem;
+  
+}
+
+.platformHead .head {
+  color: #FF0A04;
+  font-family: 'Proxima-Bold', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+
+/* .plat1, .plat2,.plat3,.plat4,.plat5,.plat6 {
+  border: 2px solid red ;
+} */
+
+/* /* .plat2, .plat4, .plat6 {
+  margin-left: 2rem;
+}
+
+*/
+
+.pmain-s1 ,.pmain-s2,.pmain-s3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.platformSection {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.platformSection p {
+  color: #FF0A04;
+  
+}
+.platformSection1 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .platformSection {
+
+      padding-left: 0rem;
+      padding-right: 0rem;
+    
+  }
+
+  .platformSection1 {
+
+      padding-left: 0rem;
+      padding-right: 0rem;
+    
+  }
+  .pmain-s1 ,.pmain-s2,.pmain-s3{
+      display: flex;
+      justify-content:space-between;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+    .secondgame {
+      margin-top: 5rem;
+    }
+  }
+
+
+
+  /* four */ 
+  .fourgame-img {
+    height: 35rem;
+    width: 25rem;
+}
+
+.title {
+    font-family: 'Proxima-Bold';
+    font-size: 30px;
+    color: #FF0A04;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.fourgame-sub2-main {
+    width: fit-content;
+}
+ 
+.GameDevText p {
+    font-family: 'Proxima-regular';
+    font-size: 18px;
+    color: #1F1F24;
+    line-height: 27px;
+    opacity: 0.7;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+
+}
+
+.GameDevText p {
+    text-align: justify;
+}
+
+.fourgame-sub2 .title {
+    margin-top: 3rem;
+}
+
+
+
+
+@media only screen and (max-width: 960px) {
+    .GameDevText  {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .GameDevText p {
+        text-align: center;
+    }
+    .title {
+        text-align: center;
+    }
+  }
+
+/* five  */
+.liveOpsText p.liveOpsText-head {
+  color: #FF0A04;
+  font-family: 'Proxima-Bold', sans-serif;
+  font-size: 30px;
+  
+  margin-bottom: 20px;
+}
+
+.liveOpsText p {
+  text-align: justify;
+}
+
+.liveOpsText p.liveOpsText-head::after {
+  content: '';
+  border-bottom: 3px solid black;
+  width: 30px;
+  margin-left: 3rem;
+  display: block;
+}
+
+.liveOpsText p.liveOpsText-sub {
+  color: #1F1F24;
+  opacity: 0.7;
+  font-family: 'Proxima-regular', sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+ 
+}
+
+.fivegame-main {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.liveOpsText p span.spacer {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.liveOpsText-image1 {
+  margin-top: 2rem;
+}
+
+.portText p.portText-head {
+  color: #FF0A04;
+  font-family: 'Proxima-Bold', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px
+}
+
+.portText p {
+  text-align: justify;
+}
+
+.portText {
+  margin-top: 2rem;
+}
+
+.portText p.portText-sub  {
+  color: #1F1F24;
+  opacity: 0.7;
+  font-family: 'Proxima-regular', sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+.portText p.portText-head::after {
+  content: '';
+  border-bottom: 2px solid black;
+  display: block;
+  width: 30px;
+  margin-left: 3rem;
+
+}
+
+.portText-image2 {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 960px) {
+  .fivegame-main {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+  }
+  .liveOpsText p span.spacer {
+      margin-left: 0rem;
+      margin-right: 0.5rem;
+  }
+  .liveOpsText-img1 {
+      height: 10rem;
+      width: 15rem;
+  }
+  .liveOpsText p {
+      text-align: center;
+  }
+  .liveOpsText p.liveOpsText-sub {
+      font-size: 1.1rem;
+  }
+  .liveOpsText p.liveOpsText-head::after {
+      margin: 0 auto;
+  }
+  .portText-image2 .portText-img2 {
+      height: 10rem;
+      width: 15rem;
+  }
+  .portText p {
+      text-align: center;
+  }
+  .portText p.portText-head::after {
+      margin: 0 auto;
+  }
+
+  .portText p.portText-head + p {
+      font-size: 1.2rem;
+      
+  }
+
+
+
+
+} 
