@@ -170,8 +170,8 @@
     height: 20px;
     transform: rotate(136deg);
     position: absolute;
-    top: 4394px;
-    right: 592px;
+    top: 4384px;
+    right: 600px;
     background: rgb(255, 255, 255);
     border-width: 0px 3px 0px 0px;
     border-style: solid;
@@ -305,8 +305,14 @@
         display: none;
     }
     .btn::before{
-        top: 4270px;
+        top: 4238px;
         right: 101px
     
+    }
+    .wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    .text-last{
+        color: #000;
     }
 }

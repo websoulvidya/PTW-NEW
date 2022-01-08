@@ -171,17 +171,20 @@
     position: absolute;
     left: 13rem;
     font-weight: 600;
+    color: #000;
 }
 .frame-text1{
     position: absolute;
     left: 41rem;
     font-weight: 600;
+    color: #000;
 }
 .frame-text2{
     position: absolute;
     left: 70rem;
     text-align: left;
     font-weight: 600;
+    color: #000;
 }
 .last-h{
     color: #3BA1E1;
@@ -236,8 +239,8 @@
     height: 20px;
     transform: rotate(136deg);
     position: absolute;
-    top: 3514px;
-    right: 592px;
+    top: 3533px;
+    right: 600px;
     background: rgb(255, 255, 255);
     border-width: 0px 3px 0px 0px;
     border-style: solid;
@@ -375,7 +378,7 @@
         margin-bottom: 2rem;
     }
     .btn1::before{
-        top: 4522px;
+        top: 4491px;
         right: 101px;
     }
 }
