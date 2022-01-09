@@ -44,7 +44,7 @@ export const Header = () => {
 
             
             
-                <Tab style={{color:"white" ,marginLeft:"4rem", fontSize:"2rem"}}label="PTW" />
+                <Tab style={{color:"white" ,marginLeft:"4rem", fontSize:"2rem"}}label="PTW" component={Link} to={"/"} />
             
                 <Tab style={{color:"white",marginLeft:"2rem"}}label="LAB" component={Link} to={"/lab"} />
 
