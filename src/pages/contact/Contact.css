@@ -184,7 +184,7 @@ section{
     width: 100%;
     margin: 0 auto;
     display: flex;
-    background-image: url("..\\..\\assets\\images\\sub_bg.png");
+    background-image: url(https://d323sccto6ke4l.cloudfront.net/images/qualityassurance/qa/en-us/quality-assurancestats.png);
     object-fit: cover;
     background-size: cover;
     height: 300px;
