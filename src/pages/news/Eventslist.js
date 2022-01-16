@@ -128,7 +128,7 @@ function Eventslist() {
                                <p>Jun 17 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Side Partner with Veteran Performance Capture...</h3>
+                            <h3>Side Partner with Veteran Performance Capture</h3>
 
                         </div>
                     </div>
@@ -230,8 +230,7 @@ function Eventslist() {
                                <p>Jan 07 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Check Out Our Beautiful<br />
-                                New London Office</h3>
+                            <h3>Check Out Our Beautiful New London Office</h3>
 
                         </div>
                     </div>
@@ -246,8 +245,7 @@ function Eventslist() {
                                <p>Jan 7 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Thank You To Our<br />
-                                Teams And Partners</h3>
+                            <h3>Thank You To Our Teams And Partners</h3>
 
                         </div>
                     </div>
@@ -481,10 +479,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>May 02 ,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>PoleToWin Pitcrew Holdings,Inc Appoints...</h3>
+                            <h3>Pole to win Pitcrew Holdings, Inc ...</h3>
 
                         </div>
                     </div>
@@ -495,15 +493,10 @@ function Eventslist() {
                             <img src={PoletoWinInternational} alt='' class="eventslist-img " />
                         </div> <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Mar 12 ,2019</p>
                             </div>
-                            <div className='event-overlaytext'>
-                               <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
-                            </div>
-                        <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <div class="eventslist-text">
+                            <h3>Pole To Win International Appoints...</h3>
 
                         </div>
                     </div>
@@ -521,11 +514,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Feb 12, 2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                            <h3>Loreto Sanz Fueyo Joins Pole To Win</h3>
 
                         </div>
                     </div>
@@ -537,11 +529,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Oct 22 ,2018</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Meet The Team:<br />
-                                Machiko Kida</h3>
+                            <h3>PTW At Game Quality Forum Asia</h3>
 
                         </div>
                     </div>
@@ -553,11 +544,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Oct 15 ,2018</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <h3>Pole To Win International Supports The Centre For... </h3>
 
                         </div>
                     </div>
@@ -572,9 +562,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={NewLondonStudio} alt='' class="eventslist-img " />
                         </div>
-                                               <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Sep 21 ,2018</p>
+                            </div>
+                            <div class="eventslist-text">
+                            <h3>PTW Opens New London Studio</h3>
 
                         </div>
                     </div>
@@ -584,9 +577,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={ISOCertificate} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Sep 21 ,2018</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>Meet The Team:<br />
-                                Machiko Kida</h3>
+                            <h3>Pole To Win Achieves ISO 27001 Cerificate</h3>
 
                         </div>
                     </div>
@@ -596,9 +592,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe  ">
                             <img src={RestructureRegion} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Aug 23 ,2018</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <h3>Pole To Win International Restructres InTo Region...</h3>
 
                         </div>
                     </div>
@@ -613,9 +612,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={AkshayaPatra} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Apr 23 ,2018</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                            <h3>Pole To Win India Supports Akshaya Patra ...</h3>
 
                         </div>
                     </div>
@@ -625,9 +627,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={Incorporation} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Aug 22 ,2017</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>Meet The Team:<br />
-                                Machiko Kida</h3>
+                            <h3>Pole To Win International Announces Incorporation Of...</h3>
 
                         </div>
                     </div>
@@ -637,9 +642,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe  ">
                             <img src={KoreanStudio} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Aug 01 ,2017</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <h3>Pole To Win International Announces Korean Studio...</h3>
 
                         </div>
                     </div>
@@ -655,9 +663,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={BBCScotland} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Jun 14 ,2017</p>
+                            </div>v
                         <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                            <h3>PTW Talks All Things Testing On BBC Scotland</h3>
 
                         </div>
                     </div>
@@ -667,9 +678,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={MitchSuzuki} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>May 18 ,2017</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>Meet The Team:<br />
-                                Machiko Kida</h3>
+                            <h3>PTW Announces Promotion Of Mitch Suzuki...</h3>
 
                         </div>
                     </div>
@@ -679,9 +693,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe  ">
                             <img src={SIDELA} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Mar 24 ,2017</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <h3>SIDE LA Officially Opens With Lauch Party</h3>
 
                         </div>
                     </div>
@@ -699,9 +716,12 @@ function Eventslist() {
                         <div class="eventslist-imgframe">
                             <img src={NewMalasya} alt='' class="eventslist-img " />
                         </div>
+                        <div className='event-overlaytext'>
+                               <img src={ClaenderImg} alt=''/>
+                               <p>Jan 06 ,2017</p>
+                            </div>
                         <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                            <h3>Pole To Win International Announces New Malasia...</h3>
 
                         </div>
                     </div>

@@ -317,10 +317,7 @@
         float: left;
         margin-left: -30px;
       
-        
-        ;
-   
-     
+  
      }
      .eventslist-imgframe{
          flex:50%;
@@ -329,22 +326,21 @@
     
      
      }
-     .eventslist-text{
-         position: absolute;
-         left: 204px;
-         top: 41px;
-        color: black;
-        float: left;
-        justify-content: flex-start;
-        align-items: center;
-        flex: 70% 1;
-        display: flex;
-        padding: 0 17px;
-     
-    }
 
+    .eventslist-text{
+        position: absolute;
+        left: 204px;
+        top: 41px;
+       color: black;
+       float: left;
+       justify-content: flex-start;
+       align-items: center;
+       flex: 70% 1;
+       display: flex;
+       padding: 0 17px;
+    }
   .eventslist-section:hover h3{
-    font-size:large;
+    font-size:small;
     color: rgb(48, 46, 46);
  }
 
@@ -355,7 +351,7 @@
      position: absolute;
     font-size: small;
     color: black;
-    left:46%;
+    left:49%;
     top: -10px;
    font-weight: bold;
 
@@ -363,7 +359,7 @@
     }
     .event-overlaytext img{
         position: absolute;
-        left: 39%;
+        left: 41%;
         top: 8px;
    
     }
