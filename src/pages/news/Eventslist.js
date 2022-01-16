@@ -60,8 +60,7 @@ function Eventslist() {
                                <p>Dec 6 ,2021</p>
                             </div>
                             <div class="eventslist-text">
-                                <h3>The Game Gloal Digital<br />
-                                    Support</h3>
+                                <h3>The Game Gloal Digital Support</h3>
                             </div>
                        
                     </div>
@@ -92,8 +91,7 @@ function Eventslist() {
                                <p>Aug 4 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Adding Our Voice To The<br />
-                                Conversation</h3>
+                            <h3>Adding Our Voice To The Conversation</h3>
 
                         </div>
                     </div>
@@ -130,8 +128,7 @@ function Eventslist() {
                                <p>Jun 17 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Side Partner with Veteran<br />
-                                    Performance Capture...</h3>
+                            <h3>Side Partner with Veteran Performance Capture...</h3>
 
                         </div>
                     </div>
@@ -167,8 +164,7 @@ function Eventslist() {
                                <p>May 05 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Our Scotland Studio<br />
-                                Speaks Up</h3>
+                            <h3>Our Scotland Studio Speaks Up</h3>
 
                         </div>
                     </div>
@@ -183,8 +179,7 @@ function Eventslist() {
                                <p>Apr 30 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>PTW Joins Forces With<br />
-                                Safe In Our World</h3>
+                            <h3>PTW Joins Forces With Safe In Our World</h3>
 
                         </div>
                     </div>
@@ -199,8 +194,7 @@ function Eventslist() {
                                <p>Feb 3 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Congrajulations To Marion 
-                                Muir!</h3>
+                            <h3>Congrajulations To Marion Muir!</h3>
 
                         </div>
                     </div>
@@ -221,8 +215,7 @@ function Eventslist() {
                                <p>Jan 22 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Welcome To The Famiy<br />
-                                5518!</h3>
+                            <h3>Welcome To The Famiy 5518!</h3>
 
                         </div>
                     </div>
@@ -355,8 +348,7 @@ function Eventslist() {
                                <p>Feb 11 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>PTW Announces Flagship<br />
-                                India Studio In Bangalore</h3>
+                            <h3>PTW Announces Flagship India Studio In Bangalore</h3>
 
                         </div>
                     </div>
@@ -377,8 +369,7 @@ function Eventslist() {
                                <p>Feb 4 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>PTW Welcome New<br />
-                                Cheif Operating Officer...</h3>
+                            <h3>PTW Welcome New Cheif Operating Officer...</h3>
 
                         </div>
                     </div>
@@ -393,8 +384,7 @@ function Eventslist() {
                                <p>Dec 10 ,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Meet PTW Launches Product<br />
-                                Development Arm, OR...</h3>
+                            <h3>Meet PTW Launches Product Development Arm, OR...</h3>
 
                         </div>
                     </div>
@@ -409,8 +399,7 @@ function Eventslist() {
                                <p>Aug 29,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>PTW Announces The<br />
-                                Launch of Esports Team...</h3>
+                            <h3>PTW Announces The Launch of Esports Team...</h3>
 
                         </div>
                     </div>
@@ -427,11 +416,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Aug 21 ,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                            <h3>New Montreal Site Announced</h3>
 
                         </div>
                     </div>
@@ -443,11 +431,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Aug 21 ,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Meet The Team:<br />
-                                Machiko Kida</h3>
+                            <h3>PTW Hits The Front Cover Of MCV</h3>
 
                         </div>
                     </div>
@@ -459,11 +446,10 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Aug 20 ,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <h3>PTW Launches ELearning Podcast:Podeum</h3>
 
                         </div>
                     </div>
@@ -479,15 +465,11 @@ function Eventslist() {
                             <img src={GatewayTowest} alt='' class="eventslist-img " />
                         </div> <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Jul 15 ,2019</p>
                             </div>
-                            <div className='event-overlaytext'>
-                               <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
-                            </div>
+                        
                         <div class="eventslist-text">
-                            <h3>The Game Gloal Digital<br />
-                                Support</h3>
+                            <h3>PTW Opens The "Gateway To West" For China's Game</h3>
 
                         </div>
                     </div>
@@ -502,8 +484,7 @@ function Eventslist() {
                                <p>Dec 6 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Meet The Team:<br />
-                                Machiko Kida</h3>
+                            <h3>PoleToWin Pitcrew Holdings,Inc Appoints...</h3>
 
                         </div>
                     </div>
