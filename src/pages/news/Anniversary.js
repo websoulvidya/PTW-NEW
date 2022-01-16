@@ -25,9 +25,9 @@ function Anniversary() {
                              <p>Read More</p>
                           
                              <div className="btn-arrows">
-                             <i class="fal fa-angle-right"></i>
-                             <i class="fal fa-angle-right"></i>
-                            <i class="fal fa-angle-right"></i>
+                             <i className="fal fa-angle-right"></i>
+                             <i className="fal fa-angle-right"></i>
+                            <i className="fal fa-angle-right"></i>
                             </div>
                             </div>
                          </div>
@@ -80,15 +80,6 @@ function Anniversary() {
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
 
         </div>
 

@@ -47,50 +47,50 @@ function Eventslist() {
     return (
         <div>
 
-            <div class="uk-section event-list ">
+            <div className="uk-section event-list ">
                  
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
-                    <div class=" uk-width-1-2@s uk-width-1-3@m  uk-width-* eventslist-section ">
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                    <div className=" uk-width-1-2@s uk-width-1-3@m  uk-width-* eventslist-section ">
                         <div className='event-slide'> </div>
-                            <div class="eventslist-imgframe ">
-                                <img src={GlobalDigital} alt='' class="eventslist-img " />
+                            <div className="eventslist-imgframe ">
+                                <img src={GlobalDigital} alt='' className="eventslist-img " />
                             </div>
                             <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Dec 6 ,2021</p>
                             </div>
-                            <div class="eventslist-text">
+                            <div className="eventslist-text">
                                 <h3>The Game Gloal Digital Support</h3>
                             </div>
                        
                     </div>
 
 
-                    <div class="uk-width-1-2@s uk-width-1-3@m  uk-width-* eventslist-section ">
+                    <div className="uk-width-1-2@s uk-width-1-3@m  uk-width-* eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={PtwAcquires} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={PtwAcquires} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 27 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Acquires Delfisound</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@m  uk-width-* eventslist-section">
+                    <div className="uk-width-1-3@m  uk-width-* eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={VoiceConversation} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={VoiceConversation} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 4 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Adding Our Voice To The Conversation</h3>
 
                         </div>
@@ -101,48 +101,48 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l eventslist-section ">
+                    <div className="uk-width-1-3@l eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={ChinaJoy} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={ChinaJoy} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jul 2 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>ChinaJoy 2021</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  eventslist-section ">
+                    <div className="uk-width-1-3@l  eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={SidePartner} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={SidePartner} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jun 17 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Side Partner with Veteran Performance Capture</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  eventslist-section">
+                    <div className="uk-width-1-3@l  eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={SnjvPtw} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={SnjvPtw} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jun 16 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW has Joined SNJV</h3>
 
                         </div>
@@ -152,48 +152,48 @@ function Eventslist() {
                 </div>
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l eventslist-section ">
+                    <div className="uk-width-1-3@l eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={ScotlandStudio} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={ScotlandStudio} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>May 05 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Our Scotland Studio Speaks Up</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  eventslist-section ">
+                    <div className="uk-width-1-3@l  eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={SafeWorld} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={SafeWorld} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Apr 30 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Joins Forces With Safe In Our World</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  eventslist-section">
+                    <div className="uk-width-1-3@l  eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={MarionMuir} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={MarionMuir} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Feb 3 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Congrajulations To Marion Muir!</h3>
 
                         </div>
@@ -203,48 +203,48 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l eventslist-section ">
+                    <div className="uk-width-1-3@l eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={Welcomefamily} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={Welcomefamily} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jan 22 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Welcome To The Famiy 5518!</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  eventslist-section ">
+                    <div className="uk-width-1-3@l  eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={LondonOffice} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={LondonOffice} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jan 07 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Check Out Our Beautiful New London Office</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  eventslist-section">
+                    <div className="uk-width-1-3@l  eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={ThankyouTeam} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={ThankyouTeam} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jan 7 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Thank You To Our Teams And Partners</h3>
 
                         </div>
@@ -252,48 +252,48 @@ function Eventslist() {
                 </div>
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={DeborahRide} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={DeborahRide} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 04 ,2020</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>A Ride With Deborah</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={Breath} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={Breath} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jun 11 ,2020</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Letter From The CEO</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={GameGlobal} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={GameGlobal} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>May 28 ,2020</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Game Global Digital<br />
                                Summit 2020</h3>
 
@@ -304,48 +304,48 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={Covid19Response} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={Covid19Response} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>May 20 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Return To Studio</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={CEOMessage} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={CEOMessage} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>May 23 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>A Message from Our CEO</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={BangloreStudio} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={BangloreStudio} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Feb 11 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Announces Flagship India Studio In Bangalore</h3>
 
                         </div>
@@ -355,48 +355,48 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={PTWNewOfficers} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={PTWNewOfficers} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Feb 4 ,2021</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Welcome New Cheif Operating Officer...</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={ProductORStudios} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={ProductORStudios} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Dec 10 ,2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Meet PTW Launches Product Development Arm, OR...</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={EsportsTeam} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={EsportsTeam} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 29,2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Announces The Launch of Esports Team...</h3>
 
                         </div>
@@ -405,48 +405,48 @@ function Eventslist() {
                 </div>
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={MontrealSite} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={MontrealSite} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 21 ,2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>New Montreal Site Announced</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={FrontCoverMCV} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={FrontCoverMCV} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 21 ,2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Hits The Front Cover Of MCV</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={PodEum} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={PodEum} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 20 ,2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Launches ELearning Podcast:Podeum</h3>
 
                         </div>
@@ -455,47 +455,47 @@ function Eventslist() {
                 </div>
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={GatewayTowest} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={GatewayTowest} alt='' className="eventslist-img " />
                         </div> <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jul 15 ,2019</p>
                             </div>
                         
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Opens The "Gateway To West" For China's Game</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={PoleToWinPitCrew} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={PoleToWinPitCrew} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>May 02 ,2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole to win Pitcrew Holdings, Inc ...</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={PoletoWinInternational} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={PoletoWinInternational} alt='' className="eventslist-img " />
                         </div> <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Mar 12 ,2019</p>
                             </div>
-                            <div class="eventslist-text">
+                            <div className="eventslist-text">
                             <h3>Pole To Win International Appoints...</h3>
 
                         </div>
@@ -505,48 +505,48 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={LoretoSanz} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={LoretoSanz} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Feb 12, 2019</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Loreto Sanz Fueyo Joins Pole To Win</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={QualityForumAsia} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={QualityForumAsia} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Oct 22 ,2018</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW At Game Quality Forum Asia</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={DomesticPeace} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={DomesticPeace} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Oct 15 ,2018</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win International Supports The Centre For... </h3>
 
                         </div>
@@ -555,48 +555,48 @@ function Eventslist() {
                 </div>
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={NewLondonStudio} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={NewLondonStudio} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Sep 21 ,2018</p>
                             </div>
-                            <div class="eventslist-text">
+                            <div className="eventslist-text">
                             <h3>PTW Opens New London Studio</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={ISOCertificate} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={ISOCertificate} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Sep 21 ,2018</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win Achieves ISO 27001 Cerificate</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={RestructureRegion} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={RestructureRegion} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 23 ,2018</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win International Restructres InTo Region...</h3>
 
                         </div>
@@ -605,48 +605,48 @@ function Eventslist() {
                 </div>
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={AkshayaPatra} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={AkshayaPatra} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Apr 23 ,2018</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win India Supports Akshaya Patra ...</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={Incorporation} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={Incorporation} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 22 ,2017</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win International Announces Incorporation Of...</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={KoreanStudio} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={KoreanStudio} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Aug 01 ,2017</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win International Announces Korean Studio...</h3>
 
                         </div>
@@ -656,48 +656,48 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid  uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid  uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={BBCScotland} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={BBCScotland} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jun 14 ,2017</p>
                             </div>v
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Talks All Things Testing On BBC Scotland</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={MitchSuzuki} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={MitchSuzuki} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>May 18 ,2017</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>PTW Announces Promotion Of Mitch Suzuki...</h3>
 
                         </div>
                     </div>
 
-                    <div class="uk-width-1-3@l  uk-width@s eventslist-section">
+                    <div className="uk-width-1-3@l  uk-width@s eventslist-section">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe  ">
-                            <img src={SIDELA} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe  ">
+                            <img src={SIDELA} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Mar 24 ,2017</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>SIDE LA Officially Opens With Lauch Party</h3>
 
                         </div>
@@ -709,18 +709,18 @@ function Eventslist() {
 
 
 
-                <div class="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
+                <div className="uk-grid uk-margin-top-large event-wrapper" uk-scrollspy="cls: uk-animation-scale-up; target: .eventslist-section;" uk-grid>
 
-                    <div class="uk-width-1-3@l uk-width@s eventslist-section ">
+                    <div className="uk-width-1-3@l uk-width@s eventslist-section ">
                     <div className='event-slide'> </div>
-                        <div class="eventslist-imgframe">
-                            <img src={NewMalasya} alt='' class="eventslist-img " />
+                        <div className="eventslist-imgframe">
+                            <img src={NewMalasya} alt='' className="eventslist-img " />
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
                                <p>Jan 06 ,2017</p>
                             </div>
-                        <div class="eventslist-text">
+                        <div className="eventslist-text">
                             <h3>Pole To Win International Announces New Malasia...</h3>
 
                         </div>
