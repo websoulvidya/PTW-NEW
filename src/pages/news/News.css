@@ -333,13 +333,13 @@
          position: absolute;
          left: 204px;
          top: 41px;
-      
         color: black;
         float: left;
-       justify-content: center;
-       align-items: center;
-        flex:70%;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 70% 1;
         display: flex;
+        padding: 0 17px;
      
     }
 
@@ -606,6 +606,12 @@
                     top: -10px;
                     font-weight: bold;
                 }
+                .event-overlaytext img{
+                    position: absolute;
+                    left: 39%;
+                    top: 8px;
+               
+                }
 
 /* right side event */
 .right-eventslist {
@@ -719,18 +725,16 @@
              transform: rotate(45deg);
              border-bottom: solid 2px rgb(231, 98, 10);
              content: '';
-             width: 70px;
-             height: 70px;
+             width: 66px;
+            height: 72px;
              background: #fff;
              transition: opacity .3s ease-out;
              opacity: 1;
              }
             .anniversary-text{
-              
-                font-size: 22px;
-                  padding-left:120px;
-               padding-top: 40px;
-             
+                font-size: 26px;
+                padding-left: 35px;
+                padding-top: 40px;
             }
             .anniversary-text p{
           padding-left: 20px;
@@ -746,49 +750,49 @@
                
              
             }
-            .anniversary-slide::before,.anniversary-slide::after{
-             background-color: rgb(231, 98, 10);
-             position: absolute;
-             width: 190px;
-             height: 15px;
-             transform: skewX(-35deg);
-             content: '';
-         
+     .anniversary-slide::before,.anniversary-slide::after{
+     background-color: rgb(231, 98, 10);
+    position: absolute;
+    width: 157px;
+    height: 10px;
+    transform: skewX(35deg);
+    content: '';
+
              
          }
          
          .anniversary-slide:before{
-             top: -14px;
-             left: 6px;
+             top: -11px;
+             left: 10px;
              transition: all 0.5s ease;
-             left: 0;
+             
          }
          .anniversary-section:hover .anniversary-slide::before{
-             left: 72%
+             left: 69%
          }
          
          .anniversary-slide::after{
-             bottom: -14px;
+             bottom: -11px;
              right: 40px;
              transition: all 0.5s ease;
-             right: 0;
+            
          }
          .anniversary-section:hover .anniversary-slide::after{
-             right: 80%
+             right: 75%
          }
          
          
          
          .anniversary-more{
-             width: 130px;
-             height: 45px;
-             border: solid 3px rgb(231, 98, 10);
-             border-radius: 4px;
-              position: absolute;
-             background: #fff;
-             transition: background .3s ease-out;
-             left: 519px;
-             top: 223px;
+            width: 130px;
+            height: 45px;
+            border: solid 3px rgb(231, 98, 10);
+            border-radius: 4px;
+            position: absolute;
+            background: #fff;
+            transition: background .3s ease-out;
+            left: 339px;
+            top: 151px;
              }
              .anniversary-more:after{
              position: absolute;
@@ -849,11 +853,11 @@
              width: 100%;
             }
             .right-events-section{
-             height: 380px;
-             overflow-y: auto;
-             top:-30px;
-             position:relative;
-             width:100%;
+                height: 222px;
+                overflow-y: auto;
+                top: -30px;
+                position: relative;
+                width: 100%;
          
             }
             .right-eventslist{
@@ -937,22 +941,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+  
 
      /* event list */
      .event-list {
@@ -1009,6 +998,7 @@
                  .eventslist-text {
                      position: unset;
                      flex:65% 1;
+                     
                  }
                  .eventslist-text h3{
                      font-size: 15px;
@@ -1023,6 +1013,677 @@
                      font-weight: bold;
                  }
  
-
+                 .event-overlaytext img{
+                    position: absolute;
+                    left: 39%;
+                    top: 8px;
+               
+                }
      
+    }
+    @media only screen and (min-width:1201px) and (max-width:1400px){
+        html, body {
+            overflow-x: hidden;
+            
+         }
+
+         .anniversary-img{
+            height: 265px;
+          transform: scale(1.02);
+           float: left;
+           z-index: 2 !important;
+           position: relative;
+          
+         }
+         .anniversary-imgframe{
+             flex: 43% 1;
+             position: relative;
+             z-index: -1;
+             top: -12px;
+          
+         
+         }
+         .anniversary-section{
+             text-align: left;
+             height: 250px;
+             border: solid 2px rgb(231, 98, 10);
+             position: relative;
+             transition: background .3s ease-out;
+             display: flex;
+         
+             }
+             .anniversary-section:after{
+             position: absolute;
+             right: -37px;
+             top: -40px;
+             transform: rotate(45deg);
+             border-bottom: solid 2px rgb(231, 98, 10);
+             content: '';
+             width: 66px;
+            height: 72px;
+             background: #fff;
+             transition: opacity .3s ease-out;
+             opacity: 1;
+             }
+            .anniversary-text{
+                font-size: 26px;
+                padding-left: 35px;
+                padding-top: 40px;
+            }
+            .anniversary-text p{
+          padding-left: 20px;
+          color: black;
+          
+         }
+            .anniversary-slide{
+                width:100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+               
+             
+            }
+     .anniversary-slide::before,.anniversary-slide::after{
+     background-color: rgb(231, 98, 10);
+    position: absolute;
+    width: 157px;
+    height: 10px;
+    transform: skewX(35deg);
+    content: '';
+
+             
+         }
+         
+         .anniversary-slide:before{
+             top: -11px;
+             left: 10px;
+             transition: all 0.5s ease;
+             
+         }
+         .anniversary-section:hover .anniversary-slide::before{
+             left: 69%
+         }
+         
+         .anniversary-slide::after{
+             bottom: -11px;
+             right: 40px;
+             transition: all 0.5s ease;
+            
+         }
+         .anniversary-section:hover .anniversary-slide::after{
+             right: 75%
+         }
+         
+         
+         
+         .anniversary-more{
+            width: 130px;
+            height: 45px;
+            border: solid 3px rgb(231, 98, 10);
+            border-radius: 4px;
+            position: absolute;
+            background: #fff;
+            transition: background .3s ease-out;
+            left: 384px;
+            top: 151px;
+             }
+             .anniversary-more:after{
+             position: absolute;
+             right: -21px;
+             top: -35px;
+             transform: rotate(45deg);
+             border-bottom: solid 3px rgb(231, 98, 10);
+             content: '';
+             width: 22px;
+             height: 46px;
+             background: #fff;
+             transition: opacity .3s ease-out;
+             opacity: 1;
+             }
+             
+         
+             
+             .anniversary-more:hover {
+             background: rgb(231, 98, 10);
+             cursor: pointer;
+             color: white;
+             }
+             .anniversary-more:hover:after{
+             opacity: 0;
+             }
+         
+           .anniversary-more p{
+               position: relative;
+               font-size: 14px;
+               padding-left: 19px;
+                padding-top: 8px;
+                color: rgb(231, 98, 10);
+           }
+         
+           .btn-arrows{
+             color: rgb(231, 98, 10);
+             position: absolute;
+             left: 76%;
+             bottom: 11%;
+             font-size: 20px;
+         
+           }
+           .anniversary-more:hover .btn-arrows{
+             color: white;
+         
+           }
+           .anniversary-more:hover p{
+             color: white;
+         
+           }
+            /* Right side scrolll event */
+         
+            .right-event-heading h4{
+             color: rgb(231, 98, 10);
+             text-align: left;
+             background-color: white;
+             padding-bottom: 15px;
+             width: 100%;
+            }
+            .right-events-section{
+                height: 222px;
+                overflow-y: auto;
+                top: -30px;
+                position: relative;
+                width: 100%;
+         
+            }
+            .right-eventslist{
+             margin-top: 20px;
+             text-align: left;
+             width: 100% !important;
+             position: relative;
+             transition: background .3s ease-out;
+             display: flex;
+             
+             }
+             .rightevent-image:after{
+                 position: absolute;
+                 right: -11px;
+                 top: -7px;
+                 transform: rotate(45deg);
+                 border-bottom: solid 3px rgb(231, 98, 10);
+                 content: '';
+                 width: 26px;
+                 height: 15px;
+                 background: #fff;
+                 transition: opacity .3s ease-out;
+                 opacity: 1;
+             }
+             
+          
+         .rightevent-image{
+             transform: scale(1.01);
+            float: left;
+            border: solid 3px rgb(231, 98, 10);
+            width: 40%;
+          
+          }
+         
+          .rightevent-text{
+             color: black;
+             float: left;
+              padding-left: 12px;
+             flex:70%;
+             display: flex;
+          
+         } 
+         
+         
+         .rightevent-slide{
+             width: 100%;
+             height: 100%;
+             position: absolute;
+             left: 0;
+             top: 0;
+         }
+         
+         .rightevent-slide::before,.rightevent-slide::after{
+           background-color: rgb(231, 98, 10);
+           position: absolute;
+           width: 60px;
+           height: 5px;
+           transform: skewX(-35deg);
+           content: '';
+         
+         
+         }
+         
+         .rightevent-slide:before{
+           top: -5px;
+           transition: all 0.5s ease;
+           left: 27px;
+         }
+         .rightevent-slide:hover::before{
+           left: 17%
+         }
+         
+         .rightevent-slide::after{
+           bottom: -5px;
+          transition: all 0.5s ease;
+           right:350px;
+         }
+         .rightevent-slide:hover::after{
+           right: 85%
+         }
+
+
+
+  
+
+     /* event list */
+     .event-list {
+        padding: 0 20px!important;
+    }  
+    
+ .event-slide:hover::before{
+     left: 50%;
+     
+ }
+ .event-slide:hover::after{
+     right: 50%;
+     
+ }
+   
+ .eventslist-section:after {
+     position: absolute;
+     right: -16px;
+     top: -9px;
+     transform: rotate(45deg);
+     border-bottom: solid 1px rgb(231, 98, 10);
+     content: '';
+     width: 41px;
+     height: 26px;
+     background: #fff;
+     transition: opacity .3s ease-out;
+     opacity: 1;
+ }
+                 .eventslist-section{
+                             min-width: 100%;
+                             margin-left: 0!important;
+                             padding: 0!important;
+                             min-width: 325px;
+                             height: 124px;
+                             margin-top: 30px!important;
+                                 border: solid 1px rgb(231, 98, 10);
+                                 position: relative;
+                                 transition: background .3s ease-out;
+                                 display: flex;
+                     
+                 }
+                 .event-wrapper {
+                     padding: 26px 20px 0 10px!important;
+                     margin-top: 0 !important;
+                 }
+                 .eventslist-imgframe{
+                     flex: 35% 0;
+                 }
+                 .eventslist-imgframe img{
+                     width: 100%;
+                     height: auto!important;
+                     margin-left: 0px;
+                 }
+                 .eventslist-text {
+                     position: unset;
+                     flex:65% 1;
+                 }
+                 .eventslist-text h3{
+                     font-size: 15px;
+                     margin:0;
+                 }
+                 .event-overlaytext p {
+                     position: absolute;
+                     font-size: small;
+                     color: black;
+                     left: 50%;
+                     top: -10px;
+                     font-weight: bold;
+                 }
+                 .event-overlaytext img{
+                    position: absolute;
+                    left: 39%;
+                    top: 8px;
+               
+                }
+
+    }
+
+    @media only screen and (min-width:1401px) and (max-width:1600px){
+        html, body {
+            overflow-x: hidden;
+            
+         }
+
+         .anniversary-img{
+            height: 265px;
+          transform: scale(1.02);
+           float: left;
+           z-index: 2 !important;
+           position: relative;
+          
+         }
+         .anniversary-imgframe{
+             flex: 43% 1;
+             position: relative;
+             z-index: -1;
+             top: -12px;
+          
+         
+         }
+         .anniversary-section{
+             text-align: left;
+             height: 250px;
+             border: solid 2px rgb(231, 98, 10);
+             position: relative;
+             transition: background .3s ease-out;
+             display: flex;
+         
+             }
+             .anniversary-section:after{
+             position: absolute;
+             right: -37px;
+             top: -40px;
+             transform: rotate(45deg);
+             border-bottom: solid 2px rgb(231, 98, 10);
+             content: '';
+             width: 66px;
+            height: 72px;
+             background: #fff;
+             transition: opacity .3s ease-out;
+             opacity: 1;
+             }
+            .anniversary-text{
+                font-size: 26px;
+                padding-left: 35px;
+                padding-top: 40px;
+            }
+            .anniversary-text p{
+          padding-left: 20px;
+          color: black;
+          
+         }
+            .anniversary-slide{
+                width:100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+               
+             
+            }
+     .anniversary-slide::before,.anniversary-slide::after{
+     background-color: rgb(231, 98, 10);
+    position: absolute;
+    width: 157px;
+    height: 10px;
+    transform: skewX(35deg);
+    content: '';
+
+             
+         }
+         
+         .anniversary-slide:before{
+             top: -11px;
+             left: 10px;
+             transition: all 0.5s ease;
+             
+         }
+         .anniversary-section:hover .anniversary-slide::before{
+             left: 69%
+         }
+         
+         .anniversary-slide::after{
+             bottom: -11px;
+             right: 40px;
+             transition: all 0.5s ease;
+            
+         }
+         .anniversary-section:hover .anniversary-slide::after{
+             right: 75%
+         }
+         
+         
+         
+         .anniversary-more{
+            width: 130px;
+            height: 45px;
+            border: solid 3px rgb(231, 98, 10);
+            border-radius: 4px;
+            position: absolute;
+            background: #fff;
+            transition: background .3s ease-out;
+            left: 384px;
+            top: 151px;
+             }
+             .anniversary-more:after{
+             position: absolute;
+             right: -21px;
+             top: -35px;
+             transform: rotate(45deg);
+             border-bottom: solid 3px rgb(231, 98, 10);
+             content: '';
+             width: 22px;
+             height: 46px;
+             background: #fff;
+             transition: opacity .3s ease-out;
+             opacity: 1;
+             }
+             
+         
+             
+             .anniversary-more:hover {
+             background: rgb(231, 98, 10);
+             cursor: pointer;
+             color: white;
+             }
+             .anniversary-more:hover:after{
+             opacity: 0;
+             }
+         
+           .anniversary-more p{
+               position: relative;
+               font-size: 14px;
+               padding-left: 19px;
+                padding-top: 8px;
+                color: rgb(231, 98, 10);
+           }
+         
+           .btn-arrows{
+             color: rgb(231, 98, 10);
+             position: absolute;
+             left: 76%;
+             bottom: 11%;
+             font-size: 20px;
+         
+           }
+           .anniversary-more:hover .btn-arrows{
+             color: white;
+         
+           }
+           .anniversary-more:hover p{
+             color: white;
+         
+           }
+            /* Right side scrolll event */
+         
+            .right-event-heading h4{
+             color: rgb(231, 98, 10);
+             text-align: left;
+             background-color: white;
+             padding-bottom: 15px;
+             width: 100%;
+            }
+            .right-events-section{
+                height: 222px;
+                overflow-y: auto;
+                top: -30px;
+                position: relative;
+                width: 100%;
+         
+            }
+            .right-eventslist{
+             margin-top: 20px;
+             text-align: left;
+             width: 100% !important;
+             position: relative;
+             transition: background .3s ease-out;
+             display: flex;
+             
+             }
+             .rightevent-image:after{
+                 position: absolute;
+                 right: -11px;
+                 top: -7px;
+                 transform: rotate(45deg);
+                 border-bottom: solid 3px rgb(231, 98, 10);
+                 content: '';
+                 width: 26px;
+                 height: 15px;
+                 background: #fff;
+                 transition: opacity .3s ease-out;
+                 opacity: 1;
+             }
+             
+          
+         .rightevent-image{
+             transform: scale(1.01);
+            float: left;
+            border: solid 3px rgb(231, 98, 10);
+            width: 40%;
+          
+          }
+         
+          .rightevent-text{
+             color: black;
+             float: left;
+              padding-left: 12px;
+             flex:70%;
+             display: flex;
+          
+         } 
+         
+         
+         .rightevent-slide{
+             width: 100%;
+             height: 100%;
+             position: absolute;
+             left: 0;
+             top: 0;
+         }
+         
+         .rightevent-slide::before,.rightevent-slide::after{
+           background-color: rgb(231, 98, 10);
+           position: absolute;
+           width: 60px;
+           height: 5px;
+           transform: skewX(-35deg);
+           content: '';
+         
+         
+         }
+         
+         .rightevent-slide:before{
+           top: -5px;
+           transition: all 0.5s ease;
+           left: 27px;
+         }
+         .rightevent-slide:hover::before{
+           left: 17%
+         }
+         
+         .rightevent-slide::after{
+           bottom: -5px;
+          transition: all 0.5s ease;
+           right:350px;
+         }
+         .rightevent-slide:hover::after{
+           right: 85%
+         }
+
+
+
+  
+
+     /* event list */
+     .event-list {
+        padding: 0 20px!important;
+    }  
+    
+ .event-slide:hover::before{
+     left: 50%;
+     
+ }
+ .event-slide:hover::after{
+     right: 50%;
+     
+ }
+   
+ .eventslist-section:after {
+     position: absolute;
+     right: -16px;
+     top: -9px;
+     transform: rotate(45deg);
+     border-bottom: solid 1px rgb(231, 98, 10);
+     content: '';
+     width: 41px;
+     height: 26px;
+     background: #fff;
+     transition: opacity .3s ease-out;
+     opacity: 1;
+ }
+                 .eventslist-section{
+                             min-width: 100%;
+                             margin-left: 0!important;
+                             padding: 0!important;
+                             min-width: 325px;
+                             height: 124px;
+                             margin-top: 30px!important;
+                                 border: solid 1px rgb(231, 98, 10);
+                                 position: relative;
+                                 transition: background .3s ease-out;
+                                 display: flex;
+                     
+                 }
+                 .event-wrapper {
+                     padding: 26px 20px 0 10px!important;
+                     margin-top: 0 !important;
+                 }
+                 .eventslist-imgframe{
+                     flex: 27% 0;
+                 }
+                 .eventslist-imgframe img{
+                     width: 100%;
+                     height: auto!important;
+                     margin-left: 0px;
+                 }
+                 .eventslist-text {
+                     position: unset;
+                     flex:65% 1;
+                 }
+                 .eventslist-text h3{
+                     font-size: 15px;
+                     margin:0;
+                 }
+                 .event-overlaytext p {
+                     position: absolute;
+                     font-size: small;
+                     color: black;
+                     left: 50%;
+                     top: -10px;
+                     font-weight: bold;
+                     
+                 }
+                 .event-overlaytext img{
+                    position: absolute;
+                    left: 39%;
+                    top: 8px;
+               
+                }
+
     }

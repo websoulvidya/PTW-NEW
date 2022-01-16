@@ -199,7 +199,7 @@ function Eventslist() {
                                <p>Feb 3 ,2021</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Congrajulations To Marion <br />
+                            <h3>Congrajulations To Marion 
                                 Muir!</h3>
 
                         </div>
@@ -390,7 +390,7 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Dec 10 ,2019</p>
                             </div>
                         <div class="eventslist-text">
                             <h3>Meet PTW Launches Product<br />
@@ -406,11 +406,11 @@ function Eventslist() {
                         </div>
                         <div className='event-overlaytext'>
                                <img src={ClaenderImg} alt=''/>
-                               <p>Dec 6 ,2021</p>
+                               <p>Aug 29,2019</p>
                             </div>
                         <div class="eventslist-text">
-                            <h3>Inside The Day To Day<br />
-                                Of Localization QA</h3>
+                            <h3>PTW Announces The<br />
+                                Launch of Esports Team...</h3>
 
                         </div>
                     </div>
