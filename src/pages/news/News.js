@@ -1,12 +1,15 @@
 import react from 'react';
 import './News.css';
-
+import Anniversary from './Anniversary';
+import Eventslist from  './Eventslist';
 function News() {
-    return(
+    return (
         <div>
-            <h1>News page</h1>
-        </div>
+<Anniversary/>  
+<Eventslist/>
+  
+            </div>
 
-)
+    )
 }
 export default News
