@@ -70,19 +70,19 @@ export const DrawerC = () => {
 
                 </ListItem>
                 <ListItem style={{textTransform:"uppercase"}} divider>
-                    <ListItemText ><b>News&Events</b></ListItemText>
+                    <ListItemText ><Link to="/news"><b>News&Events</b></Link></ListItemText>
                 </ListItem>
                 <ListItem style={{textTransform:"uppercase"}}>
-                    <ListItemText><b>Careers</b></ListItemText>
+                    <ListItemText><Link to="/careers"><b>Careers</b></Link></ListItemText>
                 </ListItem>
                 <ListItem style={{textTransform:"uppercase"}} divider>
-                    <ListItemText><b>lab</b></ListItemText>
+                    <ListItemText><Link to="/lab"><b>lab</b></Link></ListItemText>
                 </ListItem>
                 <ListItem style={{textTransform:"uppercase"}}divider>
-                    <ListItemText><b>Contact & location</b></ListItemText>
+                    <ListItemText><Link to="/contact"><b>Contact & location</b></Link></ListItemText>
                 </ListItem>
                 <ListItem style={{textTransform:"uppercase"}}divider>
-                    <ListItemText><b>About us</b></ListItemText>
+                    <ListItemText><Link to="/about"><b>About us</b></Link></ListItemText>
                 </ListItem>
                 <ListItem divider>
                     <div className='mobile-lang-head'>
