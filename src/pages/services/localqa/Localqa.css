@@ -91,7 +91,7 @@ body {
 
 
 .ling-patch {
-	background-image: url('/Users/dhareesh/Desktop/WebSoulLabs/React/PTW/src/assets/images/sub_bg.png');
+	background-image: url('../../../assets/images/sub_bg.png');
 	display: flex;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -110,7 +110,7 @@ body {
 }
 
 .collab-sect {
-	background-image: url('/Users/dhareesh/Desktop/WebSoulLabs/React/PTW/src/assets/images/collaborate_bg_v1.png');
+	background-image: url('../../../assets/images/collaborate_bg_v1.png');
 	width: 100%;
 	background-repeat: no-repeat;
 }

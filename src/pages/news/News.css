@@ -272,7 +272,7 @@
     background-repeat: no-repeat;
 } */
 .event-list{
-    background-image: url('/src/assets/images/collaborate_bg_v1.png');
+    background-image: url('../../assets/images/collaborate_bg_v1.png');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
